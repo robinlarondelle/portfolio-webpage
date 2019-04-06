@@ -2,4 +2,18 @@
   text-align: center;
   min-width: 100px;
   max-width:100px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.dropdown-item{
+  color: black;
+}
+
+
+nav {
+  background: rgba(128,128,128, 0.3) !important;
 }

@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
-import { ProjectComponent } from './main/project/project.component';
 import { BrwHvtSvrComponent } from './brw-hvt-svr/brw-hvt-svr.component';
 import { BrwHvtPageComponent } from './brw-hvt-page/brw-hvt-page.component';
 import { CineappComponent } from './cineapp/cineapp.component';
 import { TicketstoreComponent } from './ticketstore/ticketstore.component';
+import { ProjectItemComponent } from './project/project-item/project-item.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,12 @@ import { TicketstoreComponent } from './ticketstore/ticketstore.component';
     HeaderComponent,
     FooterComponent,
     MainComponent,
-    ProjectComponent,
     BrwHvtSvrComponent,
     BrwHvtPageComponent,
     CineappComponent,
-    TicketstoreComponent
+    TicketstoreComponent,
+    ProjectItemComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
