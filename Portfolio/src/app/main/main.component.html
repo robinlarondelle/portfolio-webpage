@@ -7,10 +7,5 @@
   <a href="http://linkedin.com/in/robinlarondelle" target="_blank"><i class="fab fa-linkedin logo mx-2"></i></a>
 </div>
 </div>
-<app-project></app-project>
 
-<app-project></app-project>
-
-<app-project></app-project>
-
-<app-project></app-project>
+<app-project *ngFor="let project of projects" [project]="project"></app-project>  
